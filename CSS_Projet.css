@@ -1,0 +1,97 @@
+/* Police de caractères */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(153, 60, 10);
+}
+
+/* Style pour le titre principal */
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+#container{   
+  text-align: center;
+  
+}
+
+#container2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#container3{
+margin-left: 40%;
+}
+.text1{
+  color: rgb(205, 208, 15);
+  font-family: 'Pokemon Solid', sans-serif;
+                                                
+}
+.text2{
+color: rgb(239, 221, 32);
+font-family: 'Pokemon Solid', sans-serif;
+text-align: center;
+                                                
+}
+/* Style pour les étiquettes d'information */
+li strong {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Style pour l'image de Pokémon */
+#pokemonImage {
+  display:flex;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+/* Style pour le champ de texte et le bouton de recherche */
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid  blue;
+  margin-right: 10px;
+  
+}
+input::placeholder {
+  color: rgb(6, 19, 161);
+  
+}
+
+button {
+  background-color: #2b0b83;
+  color: rgb(211, 247, 9);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid yellow;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #3514b9;
+}
+
+/* Style pour le tableau d'équipe */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+td {
+  border: 5px solid rgb(10, 25, 159);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style pour les images dans le tableau d'équipe */
+td img {
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}

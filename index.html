@@ -1,0 +1,51 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="JS_Projet.js" type="text/javascript" defer></script>
+    <link href="CSS_Projet.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+</head>
+<body>
+  <div id="container"> 
+    <img  src="Pokédex_logo.png"  alt=""> </img> 
+    </div>
+    <div id="container2" >
+    <input type="text" id="pokemonName" placeholder="Entrez le nom d'un Pokémon">
+    <button onclick="searchPokemon()">sélectionner</button>
+    <h3 class="text1">Index des Pokémons en anglais</h3>
+    <select id="pokemonDropdown"></select>
+
+  </div>
+    <br>
+    <img id="pokemonImage" src="">
+    <br>
+    <div id="container3" class="text1">
+    <ul>
+      <li><strong>N o m:</strong> <span id="pokemonNameDisplay"></span></li>
+      <li><strong>N u m :</strong> <span id="pokemonNumber"></span></li>
+      <li><strong>T y p e:</strong> <span id="pokemonType"></span></li>
+      <li><strong>A t t:</strong> <span id="pokemonAttack"></span></li>
+      <li><strong>D é f:</strong> <span id="pokemonDefense"></span></li>
+      <li><strong>V i t:</strong> <span id="pokemonSpeed"></span></li>
+    </ul>
+    </div>
+    <br>
+    <h2 class="text2"> Ton Équipe</h2>
+    <table id="equipeTable" class="td" >
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    
+
+</body>
+</html>
