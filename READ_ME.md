@@ -150,6 +150,11 @@ fetch("https://pokeapi.co/api/v2/pokemon?limit=151")
     });
   })
 ```
+### Etape final 
+J'ai par la suite  créé mon dépot git et envoyer mes documents dessus.
+
+Ensuite j'ai pu heberger ma page HTML grâce a github Pages disponible grâce au lien suivant "https://nolan1342.github.io/NolanJS/".
+
 
 
 
